@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body, 
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/*Control Section*/
+#controller {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#controller div {
+  margin-bottom: 3px;
+}
+
+#controller label {
+  border-radius: 3px;
+  font-weight: 800;
+}
+
+#controller label:last-child {
+  min-width: 50px;
+  text-align: center;
+}
+
+#controller label:first-child {
+  min-width: 25px;
+  text-align: center;
+}
+
+#red label {
+  background: red;
+}
+
+#green label {
+  background: greenyellow;
+}
+
+#blue label {
+  background: blue;
+  color: white;
+}
+
+/*Result Display Area*/
+#result-display {
+  background: rgba(255, 255, 255, .6);
+  width: 220px;
+  margin: 0 auto;
+  border-radius: 3px;
+  font-weight: 900;
+}
